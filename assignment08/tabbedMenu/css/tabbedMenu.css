@@ -1,0 +1,8 @@
+#tabs p:nth-child(1) {
+	float : left;
+	color : blue
+};
+
+#t-1{background-image:"../images/minestrone.png"}
+#t-2{background-image:"../image/mangoPops.jpg"}
+#t-3{background-image:"../images/carrotsMandarine.png"}

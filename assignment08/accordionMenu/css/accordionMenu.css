@@ -1,0 +1,14 @@
+.hide { display: none; }
+
+/*.ui-icon-plus { background-position: -16px -128px; }*/
+.ui-icon-plusthick { background-position: -32px -128px; }
+/*.ui-icon-minus { background-position: -48px -128px; }*/
+.ui-icon-minusthick { background-position: -64px -128px; }
+.ui-icon-plus {
+    width: 16px;
+    height: 16px;
+}
+.ui-icon-minus {
+    width: 16px;
+    height: 8px;
+}

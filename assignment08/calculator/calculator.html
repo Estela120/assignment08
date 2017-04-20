@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 2 - Calculator III</title>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="calculator.js"></script>
+<!--<style href="myStyle.css"></style>-->
+</head>
+<body>
+	<div id="beginning"><span class='message1'> Message1</span><br>
+		<button id="myButton" type="button">The Button</button>
+		<button id="myButton" type="button">The other Button</button>
+		<br>
+		<a id="redirect" href="https://www.google.com">Google</a>
+	</div>
+	<br>
+	<form id="myForm">
+		<input type="text" id="name" class="required"/> Name <br>
+		<input type="text" id="email" class="required"/> email <br>
+		<button type="submit" id="myButton">Submit</button><br><br>
+	</form>
+	
+	<input type="text" readonly id="result">
+    <br><br>
+   <div id="calButtons">
+	<div id="container" class="operation">
+        <input type="button" class="button" id="seven" value="7">
+        <input type="button" class="button" id="eight" value="8">
+        <input type="button" class="button" id="nine" value="9">
+        <input type="button" id="cancel" class="button" value="C">
+        <br>
+        <input type="button" class="button" id="four" value="4">
+        <input type="button" class="button" id="five" value="5">
+        <input type="button" class="button" id="six" value="6">
+        <input type="button" id="multiply" class="button" value="*">
+        <br>
+        <input type="button" class="button" id="one" value="1">
+        <input type="button" class="button" id="two" value="2">
+        <input type="button" class="button" id="three" value="3">
+        <input type="button" id="substract" class="button" value="-">
+        <br>
+        <input type="button" class="button" id="zero" value="0">
+        <input type="button" id="" class="button" id="period" value=".">
+        <input type="button" id="plus" class="button" id="add" value="+">
+		<input type="button" id="divide" class="button" id="divide" value="/">
+    </div>
+    <input type="button" id="equal" id="equal" value="=">
+	</div>
+</body>
+</html>
